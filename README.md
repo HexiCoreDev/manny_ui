@@ -4,10 +4,22 @@ A Flutter UI library built around frosted glass and neumorphic surfaces, with a 
 
 > Status: pre-1.0. The API is stable enough that we ship it in production apps, but expect minor breaks before the first tagged release.
 
-<video src="docs/showcase.mp4" controls loop muted playsinline width="640">
-  Your browser doesn't render embedded video. Watch it
-  <a href="docs/showcase.mp4">here</a> instead.
-</video>
+<!--
+  To embed an inline video player here:
+  1. Open https://github.com/HexiCoreDev/manny_ui/edit/main/README.md
+  2. Drag docs/showcase.mp4 from your local filesystem onto the editor.
+  3. GitHub will replace this comment block with a URL like:
+       https://github.com/user-attachments/assets/<UUID>
+  4. Wrap that URL in a <video> tag (or leave it bare on its own line —
+     GitHub auto-renders both into an inline player).
+
+  Example final markup once the URL is pasted in:
+
+  <video src="https://github.com/user-attachments/assets/PASTE-UUID-HERE"
+         width="100%" controls></video>
+-->
+
+> **Showcase video:** see [`docs/showcase.mp4`](docs/showcase.mp4) until the inline embed lands.
 
 ## What's in the box
 
