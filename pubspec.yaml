@@ -1,0 +1,33 @@
+name: manny_ui
+description: "Frosted-glass UI library for Flutter — components, neumorphic painter, frosted modal sheets, and a Rust-backed audio spectrum visualizer."
+publish_to: 'none'
+version: 0.1.0
+homepage: https://github.com/HexiCoreDev/manny_ui
+repository: https://github.com/HexiCoreDev/manny_ui
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  flex_color_scheme: ^8.1.1
+  google_fonts: ^6.2.1
+  cached_network_image: ^3.4.1
+  flutter_cache_manager: ^3.4.1
+  iconly: ^1.0.1
+  icons_plus: ^5.0.0
+  flutter_rust_bridge: 2.11.1
+  rust_lib_manny_ui:
+    path: rust_builder
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

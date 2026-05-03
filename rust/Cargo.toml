@@ -1,0 +1,14 @@
+[workspace]
+
+[package]
+name = "rust_lib_manny_ui"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "staticlib"]
+
+[dependencies]
+flutter_rust_bridge = "=2.11.1"
+rustfft = "6"
+symphonia = { version = "0.5", features = ["mp3", "pcm", "wav", "ogg", "flac", "aac"] }

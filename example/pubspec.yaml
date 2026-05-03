@@ -1,0 +1,29 @@
+name: manny_ui_showcase
+description: "Showcase app demonstrating manny_ui components."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  manny_ui:
+    path: ../
+  iconly: ^1.0.1
+  icons_plus: ^5.0.0
+  device_preview: ^1.2.0
+  audioplayers: ^6.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/ai_voice.wav
+    - assets/the_architect.mp3
+    - assets/the_architect.bin
