@@ -4,17 +4,10 @@ A Flutter UI library built around frosted glass and neumorphic surfaces, with a 
 
 > Status: pre-1.0. The API is stable enough that we ship it in production apps, but expect minor breaks before the first tagged release.
 
-<!-- TODO: replace this block with the showcase video.
-     Pick one:
-     1. Convert ~/Videos/recording_2026-05-03_19.48.12.mp4 to a GIF
-        (e.g. ffmpeg -i recording.mp4 -vf "fps=20,scale=480:-1" docs/showcase.gif)
-        and commit it, then reference: ![showcase](docs/showcase.gif)
-     2. Attach the .mp4 to a GitHub release and paste the rendered URL here.
-        GitHub auto-renders an inline MP4 player.
-     3. Upload to YouTube and embed a thumbnail link.
--->
-
-![showcase placeholder — replace before public release](docs/showcase-placeholder.png)
+<video src="docs/showcase.mp4" controls loop muted playsinline width="640">
+  Your browser doesn't render embedded video. Watch it
+  <a href="docs/showcase.mp4">here</a> instead.
+</video>
 
 ## What's in the box
 
