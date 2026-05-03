@@ -1,7 +1,6 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:manny_ui/config/ui_constants.dart';
-import 'package:manny_ui/utils/neumorphic_painter.dart';
 
 /// A frosted glass app bar matching the floating navbar's aesthetic.
 ///

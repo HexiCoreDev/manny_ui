@@ -280,7 +280,6 @@ class _NavigationViewState extends State<NavigationView>
     }
 
     final totalLen = _perimeter(navWidth, r);
-    final oldTopDist = _tabToTopDist(oldPage, navWidth, r);
     final newTopDist = _tabToTopDist(newPage, navWidth, r);
 
     _animFrom = _pathDist;

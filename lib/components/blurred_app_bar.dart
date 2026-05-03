@@ -1,6 +1,5 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:manny_ui/components/frosted_glass.dart';
 import 'package:manny_ui/config/ui_constants.dart';
 
 /// A reusable blurred AppBar component with consistent styling.

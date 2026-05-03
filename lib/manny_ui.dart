@@ -1,6 +1,8 @@
-library manny_ui;
+/// manny_ui — frosted-glass UI library for Flutter.
+///
+/// Re-exports icon packages so consumers don't need direct imports.
+library;
 
-// Icon packages — re-exported so consumers don't need direct imports
 export 'package:iconly/iconly.dart';
 export 'package:icons_plus/icons_plus.dart';
 

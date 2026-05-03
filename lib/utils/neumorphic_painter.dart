@@ -164,7 +164,6 @@ class NeumorphicPainter extends CustomPainter {
 
   void _drawInnerShadows(Canvas canvas, RRect rrect) {
     if (style.depth < 0.5) return;
-    final inset = style.depth * 0.8;
     final blur = style.blurRadius * 0.7;
 
     // Save layer for emboss masking
